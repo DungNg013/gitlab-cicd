@@ -31,5 +31,11 @@ pipeline {
                 echo 'Save the assemblies generated from the compilation' 
             }
         }
+	 stage('Publish Artifacts2') {
+            steps {
+                echo 'this is a change in this piple for test'
+            }
+        }
+
     }
 }
